@@ -1,0 +1,56 @@
+@import 'reset';
+@import 'themes';
+
+body {
+  margin: 0;
+}
+
+.center {
+  margin: 10px auto;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width75 {
+  width: 75%;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.quebrar-linha {
+  white-space: pre-line;
+}
+
+a:link, a:visited {
+	text-decoration: underline;
+  color: #fff
+	}
+a:hover {
+	text-decoration: underline; 
+	color: #f00
+	}
+a:active {
+	text-decoration: underline
+	}
